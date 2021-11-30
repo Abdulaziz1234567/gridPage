@@ -1,0 +1,620 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    min-width: 420px;
+}
+
+header {
+    background: url(../images/index-img/header-bg.png) no-repeat center center / cover;
+    height: 100vh;
+}
+
+.header-menu {
+    position: relative;
+}
+
+.menu-nav,
+.menu-nav-bars {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-nav {
+    display: none;
+    padding: 40px 0;
+}
+
+.menu-nav ul li {
+    list-style: none;
+}
+
+.menu-bars i {
+    font-size: 36px;
+    color: #BDBDBD;
+    cursor: pointer;
+}
+
+.menu-phone i {
+    font-size: 29px;
+    color: #bdbdbd;
+    cursor: pointer;
+}
+
+.menu-links {
+    position: fixed;
+    text-align: center;
+    background: rgba(19, 19, 19, 0.99);
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.menu-links li {
+    list-style: none;
+}
+
+.menu-links li a {
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 48px;
+    color: #828282;
+    padding: 20px 77px;
+    transition: .5s;
+}
+
+.menu-links li a:hover {
+    color: #F2F2F2;
+    border: 1px solid #F2F2F2;
+    box-sizing: border-box;
+}
+
+.menu-nav-bars {
+    margin-top: 57px;
+}
+
+.menu-links li {
+    margin-bottom: 40px;
+}
+
+.menu-icons i {
+    font-size: 41px;
+    color: #BDBDBD;
+    border-radius: 5px;
+    margin-right: 65px;
+}
+
+.menu-nav-bars .menu-logo {
+    margin-bottom: 20px;
+}
+
+.header-text h1 {
+    font-weight: 300;
+    font-size: 80px;
+    text-align: center;
+    color: #F2F2F2;
+    padding-top: 200px;
+}
+
+.header-btns button {
+    background: rgba(17, 17, 17, 0.9);
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    font-weight: 300;
+    font-size: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 348px;
+    padding: 25px 0;
+    margin: 200px 50px 0 50px;
+    transition: 1s;
+}
+
+.header-btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-btns button:hover {
+    background: rgba(17, 17, 17, 0.6);
+    border: 1px solid #C4C4C4;
+}
+
+.phone-block {
+    background: rgba(255, 255, 255, 0.95);
+    text-align: center;
+    padding: 50px 250px 200px 250px;
+    position: fixed;
+    z-index: 100;
+}
+
+.phone-block form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.exitPhone {
+    color: #4F4F4F;
+    font-size: 36px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 30px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.phone-block h4 {
+    font-size: 28px;
+    color: #000000;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.phone-block form input[type=text] {
+    padding: 16px 371px 16px 16px;
+    margin-bottom: 20px;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+}
+
+.phone-block form input[type=text]::placeholder {
+    font-size: 18px;
+    color: #4F4F4F;
+    font-weight: 600;
+}
+
+.phone-block form input[type=button] {
+    padding: 36px 150px;
+    background: #FAFF09;
+    border: none;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #000000;
+}
+
+.price-box {
+    color: #0E0E0E;
+}
+
+.price-box h2 {
+    font-size: 64px;
+}
+
+.price-box h3 {
+    font-size: 28px;
+}
+
+.price-box p {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.price-block {
+    padding: 0 40px;
+}
+
+.price-boxs {
+    background: #F2F2F2;
+    padding: 37px 108px;
+}
+
+.price-span-block span {
+    width: 20px;
+    height: 20px;
+    display: block;
+    margin-top: -20px;
+    margin-right: 5px;
+    margin-left: -5px;
+    background: #000000;
+}
+
+.price-span-block {
+    display: flex;
+    align-items: center;
+}
+
+.priceProject-left h2 {
+    font-size: 48px;
+    color: #000000;
+    margin-bottom: 40px;
+}
+
+.priceProject-left p {
+    font-weight: 300;
+    font-size: 36px;
+    color: #333333;
+}
+
+.priceProject-left button,
+.contact-right button {
+    font-weight: 300;
+    font-size: 36px;
+    background: #000000;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    padding: 35px 104px;
+    margin-top: 190px;
+}
+
+.titleOfSections {
+    margin-top: 92px;
+}
+
+.titleOfSections h1 {
+    font-weight: 300;
+    font-size: 48px;
+    color: #000000;
+    margin-left: 60px;
+}
+
+.titleOfSections .line {
+    background: #000000;
+    width: 200px;
+    height: 10px;
+    margin-top: 18px;
+}
+
+.priceProject-right img {
+    width: 100%;
+}
+
+.priceProject-right h4 {
+    font-size: 36px;
+    color: #000000;
+    margin-top: 30px;
+}
+
+.priceProject-right h3 {
+    font-weight: 300;
+    font-size: 36px;
+    color: #333333;
+    margin-top: 40px;
+}
+
+/* price end */
+/* ^^^^^^^^^^^^^^^^^___________^^^^^^^^^^^^^ */
+/* service start */
+.service-line {
+    width: 20px;
+    height: 20px;
+    background: #4F4F4F;
+    margin-top: 20px;
+}
+
+.service-text h2 {
+    font-weight: 500;
+    font-size: 40px;
+    color: #0E0E0E;
+}
+
+.service-text p {
+    font-size: 18px;
+    color: #4F4F4F;
+}
+
+.service-box img {
+    width: 100%;
+}
+
+.our_project-box img {
+    width: 100%;
+}
+
+.our_project-box h4 {
+    font-size: 24px;
+    color: #000000;
+}
+
+.our_project-box p {
+    font-weight: 300;
+    font-size: 20px;
+    color: #4F4F4F;
+}
+
+.our_project-box h6 {
+    font-weight: 300;
+    font-size: 18px;
+    color: #333333;
+}
+
+.our_project-box-hover {
+    background: rgba(0, 0, 0, 0.8);
+    box-shadow: 0px 4px 100px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    transform: translateY(-100%);
+    opacity: 0;
+    transition: 1s;
+    transition-delay: .5s;
+    cursor: pointer;
+}
+
+.our_project-box-hover button {
+    font-weight: 300;
+    font-size: 24px;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    background: transparent;
+    padding: 14px;
+    transition: 1s;
+}
+
+.our_project-box-hover button:hover {
+    background: red;
+}
+
+.our_img {
+    position: relative;
+}
+
+.our_img:hover>.our_project-box-hover {
+    transform: translateY(0%);
+    opacity: 1;
+}
+
+.instagram-imgs img {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.contact-left img {
+    width: 100%;
+}
+
+.contact-block .titleOfSections {
+    margin-bottom: 100px;
+}
+
+.contact-right h2 {
+    font-weight: 500;
+    font-size: 36px;
+    color: #000000;
+}
+
+.contact-right p {
+    font-weight: 300;
+    font-size: 24px;
+    color: #4F4F4F;
+}
+
+.contact-right input {
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    padding: 10px 237px 10px 10px;
+    font-weight: 200;
+    font-size: 24px;
+    color: #4F4F4F;
+    outline: none;
+}
+
+.contact-right h5 {
+    font-weight: 300;
+    font-size: 14px;
+    color: #333333;
+    margin-top: 15px;
+}
+
+.contact-right button {
+    margin-top: 72px;
+}
+
+footer {
+    background: #0E0E0E;
+    padding: 60px;
+}
+
+.footer-logo img {
+    width: 100%;
+}
+
+.footer-links h4 {
+    font-size: 24px;
+    color: #FAFF09;
+}
+
+.footer-links li {
+    list-style: none;
+}
+
+.footer-links li a {
+    font-size: 18px;
+    color: #F2F2F2;
+}
+
+.footer-icons {
+    display: flex;
+    align-items: center;
+}
+
+/* media start */
+@media(max-width:1400px) {
+    .price-boxs {
+        padding: 5px 20px;
+    }
+
+    .price-box h3 {
+        font-size: 24px;
+    }
+}
+
+@media(max-width:1200px) {
+    .phone-block {
+        padding: 0px 150px 50px 150px;
+    }
+}
+
+@media(max-width:991px) {
+    .header-text h1 {
+        padding-top: 10px;
+        font-size: 70px;
+    }
+
+    .phone-block {
+        padding: 0px 50px 50px 50px;
+    }
+
+    .price-boxs {
+        padding: 37px 70px;
+    }
+
+    .price-box {
+        text-align: center;
+    }
+
+    .price-span-block {
+        justify-content: center;
+    }
+
+    .price-box h3 {
+        font-size: 20px;
+    }
+
+    .priceProject-right>.price-span-block {
+        justify-content: flex-start;
+    }
+
+    .priceProject-right img {
+        display: none;
+    }
+}
+
+@media(max-width:768px) {
+    .menu-icons i {
+        margin-right: 44px;
+        font-size: 30px;
+    }
+
+    .menu-links li a {
+        font-size: 28px;
+    }
+
+    .header-text h1 {
+        font-size: 50px;
+    }
+
+    .phone-block {
+        padding: 0px 51px 50px 51px;
+    }
+
+    .header-btns button {
+        margin: 10px;
+    }
+
+    .phone-block form input[type=text] {
+        padding: 16px 200px 16px 16px;
+    }
+
+    .phone-block form input[type=button] {
+        padding: 36px 60px;
+    }
+
+    .price-box h2 {
+        font-size: 45px;
+    }
+
+    .price-box h3 {
+        font-size: 16px;
+    }
+
+    .price-box p {
+        font-size: 13px;
+    }
+
+    .price-box {
+        text-align: center;
+    }
+
+    .price-span-block {
+        justify-content: center;
+    }
+}
+
+@media(max-width:560px) {
+    .priceProject-left h2 {
+        font-size: 30px;
+    }
+
+    .priceProject-left button,
+    .contact-right button {
+        padding: 20px 50px;
+    }
+
+    .priceProject-right h3 {
+        font-size: 24px;
+    }
+
+    .titleOfSections h1 {
+        font-size: 30px;
+    }
+
+    .priceProject-left p {
+        font-size: 20px;
+    }
+    .contact-right input
+    {
+        padding: 10px 100px 10px 10px;
+    }
+}
+
+@media(max-width:514px) {
+    .phone-block {
+        padding: 0px 10px 50px 10px;
+    }
+
+    .phone-block form input[type=button] {
+        padding: 36px 20px;
+    }
+
+    .menu-icons i {
+        margin-right: 20px;
+        font-size: 25px;
+    }
+
+    .menu-links li a {
+        font-size: 20px;
+    }
+
+    .header-btns button {
+        font-size: 19px;
+    }
+
+    .price-boxs {
+        justify-content: space-between;
+    }
+
+    .price-box h3 {
+        font-size: 15px;
+    }
+
+    .price-box p {
+        font-weight: 600;
+        font-size: 12px;
+    }
+
+    .priceProject-left button,
+    .contact-right button {
+        padding: 20px 20px;
+        font-size: 25px;
+        margin-top: 20px;
+    }
+}
